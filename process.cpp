@@ -23,7 +23,11 @@ void printProcessStates(list<Process>& processVector)
                 stateChar = 'd';
                 break;
         }
-        cout << stateChar << ' ';
+        /*if(Proc.id != 999999){
+            cout << Proc.id << stateChar << ' ';
+        }*/
+
+        cout << Proc.id << stateChar << ' ';
     }
     cout << endl;
 }
